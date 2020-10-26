@@ -1,0 +1,76 @@
+#the-one {
+  color: greenyellow;
+}
+
+html {
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
+}
+
+body {
+  background-color: lightgray;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-image: url("/img/websiteimg.png");
+}
+.new-color {
+  color: aqua;
+  background-color: crimson;
+}
+
+h1 {
+  color: purple;
+  background-color: aqua;
+}
+h1 {
+  color: green;
+  font-size: 3.5rem;
+  margin-left: 0.5rem;
+}
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: light;
+  letter-spacing: 0rem;
+  word-spacing: 0.3rem;
+  margin-left: 0.5rem;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+  background-color: green;
+}
+
+a:active {
+  color: crimson;
+  background-color: coral;
+}
+
+a:hover {
+  color: aquamarine;
+  background-color: darkblue;
+}
+
+.standard-box {
+  background-color: yellow;
+  width: 300px;
+  padding: 30px;
+  border: 20px solid gold;
+}
+
+.border-box {
+  background-color: blue;
+  width: 300px;
+  padding: 20px;
+  border: 20px solid blueviolet;
+}
