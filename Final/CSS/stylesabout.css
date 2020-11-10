@@ -4,6 +4,18 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  margin: auto;
+  padding: 0;
+  min-height: 100%;
+  max-width: 1400px;
+}
+
+*,
+*::before *::after {
+  box-sizing: inherit;
+}
+
 .gallery {
   width: auto;
   text-align: center;
@@ -17,7 +29,7 @@ img {
   margin-right: auto;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
   .gallery {
     width: 40%;
     height: auto;
