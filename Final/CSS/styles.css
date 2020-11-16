@@ -23,12 +23,11 @@ img {
 }
 
 .flexbox-container {
-  background-color: magenta;
-  min-height: 800px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(100px, auto) minmax(100px, auto);
+  grid-auto-rows: minmax(100px, auto);
 }
 
 .flexbox-item {
@@ -36,16 +35,4 @@ img {
   background-color: lightgoldenrodyellow;
   color: black;
   border: 2px solid black;
-}
-
-.item-1 {
-  min-height: 100px;
-}
-
-.item-2 {
-  min-height: 200px;
-}
-
-.item-3 {
-  min-height: 300px;
 }
