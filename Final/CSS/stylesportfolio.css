@@ -26,16 +26,11 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 0.5rem;
 }
+.gallery-img {
+  height: 100%;
+}
 @media (min-width: 800px) {
-  .gallery-img1 {
-  }
-  .gallery-img2 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-  }
-  .gallery-img3 {
-  }
 }
