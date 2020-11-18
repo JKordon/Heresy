@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/stylesspraypaint.css">
     <link rel="stylesheet" href="CSS/stylesmenue.css">
+    <link rel="stylesheet" href="CSS/glightbox.min.css">
     <title>Spray Paint Gallery</title>
 </head>
 <body>
@@ -22,48 +23,66 @@
     <main class="gallery-page">
         <section class="gallery-span">
             <div class="gallery-item">
-                <a href="img/JKordon_Stretch.jpg">
+                <a href="img/JKordon_Stretch.jpg" class="glightbox">
                     <img src="img/JKordon_Stretch.jpg" 
                     alt="Spray paint self portrait" 
                     class="gallery-img">
                 </a>
             </div>
             <div class="gallery-item">
-                <a href="img/JKordon_UrbSuburb.jpg">
-                    <img src="img/JKordon_UrbSuburb.jpg" 
-                    alt="Spray paint self portrait" 
-                    class="gallery-img">
-                </a>
-            </div>
-            <div class="gallery-item">
-                <a href="img/JKordon_Independent1.jpg">
+                <a href="img/JKordon_Independent1.jpg" class="glightbox">
                     <img src="img/JKordon_Independent1.jpg" 
                     alt="Spray paint self portrait" 
                     class="gallery-img">
                 </a>
             </div>
-            <div class="gallery-item">
-                <a href="img/JKordon_LargeScale.jpg">
+            <div class="gallery-item w-2 h-2">
+                <a href="img/JKordon_Beauty.jpg" class="glightbox">
+                    <img src="img/JKordon_Beauty.jpg" 
+                    alt="Spray paint self portrait" 
+                    class="gallery-img">
+                </a>
+            </div>
+            <div class="gallery-item w-2 h-3">
+                <a href="img/JKordon_LargeScale.jpg" class="glightbox">
                     <img src="img/JKordon_LargeScale.jpg" 
                     alt="Spray paint self portrait" 
                     class="gallery-img">
                 </a>
             </div>
             <div class="gallery-item">
-                <a href="img/JKordon_EmergingDisapearring.jpg">
-                    <img src="img/JKordon_EmergingDisapearring.jpg" 
+                <a href="img/JKordon_UrbSuburb.jpg" class="glightbox">
+                    <img src="img/JKordon_UrbSuburb.jpg" 
                     alt="Spray paint self portrait" 
                     class="gallery-img">
                 </a>
             </div>
             <div class="gallery-item">
-                <a href="img/JKordon_Beauty.jpg">
-                    <img src="img/JKordon_Beauty.jpg" 
+                <a href="img/JKordon_FreahProduce1.jpg" class="glightbox">
+                    <img src="img/JKordon_FreahProduce1.jpg" 
+                    alt="Spray paint self portrait" 
+                    class="gallery-img">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="img/JKordon_Shape.jpg" class="glightbox">
+                    <img src="img/JKordon_Shape.jpg" 
+                    alt="Spray paint self portrait" 
+                    class="gallery-img">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="img/JKordon_EmergingDisapearring.jpg" class="glightbox">
+                    <img src="img/JKordon_EmergingDisapearring.jpg" 
                     alt="Spray paint self portrait" 
                     class="gallery-img">
                 </a>
             </div>
         </section>
     </main>
+    <script src="js/glightbox.min.js"></script>
+    <script>
+        const lightbox = GLightbox({ loop: true });
+    </script>
 </body>
 </html>
